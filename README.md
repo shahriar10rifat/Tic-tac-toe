@@ -1,86 +1,102 @@
-# 🎮 Tic Tac Toe (React Game)
+# ❌⭕ Tic-Tac-Toe
 
-A simple and interactive **Tic Tac Toe game** built using React.  
-This project allows two players to play turn-by-turn and also includes a **review system** to revisit previous moves.
+A modern **Tic-Tac-Toe** game built with **React** featuring turn-based gameplay, winner detection, draw handling, and a clean responsive interface. Players can enjoy the classic X vs O experience directly in the browser.
 
----
+## 🚀 Live Demo
 
-## 🚀 Features
+Play here:  
+[Live Demo](https://stellar-creponne-8a456c.netlify.app/)
 
-- ⚛️ Built with React (Vite)
-- 🎮 Two-player gameplay (X and O)
-- 🧠 Move history system (time travel feature)
-- 🔍 Review any previous move
-- 🟢 Highlighted "Game Start" button
-- 🧼 Clean and modern UI design
+## 🛠️ Technologies Used
 
----
+### **Frontend**
 
-## 📸 Preview
+- **React** → Component-based UI development
+- **CSS** → Styling and responsive layout
+- **JavaScript (ES6+)** → Game logic and state handling
+- **Vite** → Development environment and build tool
 
-Game includes:
+### **React Concepts Used**
 
-- 3x3 interactive board
-- Move review panel
-- Winner detection system
-
----
-
-## 🛠️ Tech Stack
-
-- React.js
-- JavaScript (ES6)
-- CSS3
-- Vite (for fast development)
-
----
+- **Components** → Reusable UI structure
+- **useState Hook** → Manage game state and player turns
+- **Props** → Pass data between components
+- **Conditional Rendering** → Display winner and game status
+- **Event Handling** → Handle user interactions
 
 ## 📂 Project Structure
 
-tic-tac-toe/
-│
+```bash
+📦 Tic-tac-toe
 ├── public/
 ├── src/
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── main.css
-│
+│   ├── components/      # Reusable components
+│   ├── assets/          # Static files
+│   ├── App.jsx          # Main application
+│   ├── App.css          # Main styles
+│   └── main.jsx         # Entry point
 ├── package.json
-└── vite.config.js
-
----
-
-## ▶️ How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/tic-tac-toe.git
-
-2. Go to project folder
-cd tic-tac-toe
-3. Install dependencies
-npm install
-4. Start development server
-npm run dev
-🎯 How to Play
-Player X starts first
-Players take turns clicking empty squares
-First to get 3 in a row wins
-Use Review buttons to go back to any previous move
-🧠 Future Improvements
-🤖 Add AI opponent
-📱 Mobile optimization
-✨ Highlight winning line
-🔊 Add sound effects
-🏆 Score tracking system
-📜 License
-
-This project is open-source and free to use.
-
-❤️ Made With
-
-React + Passion for learning frontend development
-
----
+├── vite.config.js
+└── README.md
 ```
+
+## ✨ Features
+
+✔️ Two-player gameplay (X vs O)  
+✔️ Winner detection system  
+✔️ Draw handling  
+✔️ Game reset functionality  
+✔️ Responsive UI  
+✔️ Built with reusable React components
+
+## 🎮 How to Play
+
+1. Player **X** starts the game.
+2. Players alternate turns by selecting cells.
+3. Match **3 symbols** horizontally, vertically, or diagonally to win.
+4. If all cells are filled without a winner, the game ends in a draw.
+
+## 📜 Run Locally
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/shahriar10rifat/Tic-tac-toe.git
+```
+
+2. Move to the project folder:
+
+```sh
+cd Tic-tac-toe
+```
+
+3. Install dependencies:
+
+```sh
+npm install
+```
+
+4. Start development server:
+
+```sh
+npm run dev
+```
+
+## 🌍 Deployment
+
+This project is deployed on **Netlify** and can also be deployed on:
+
+- GitHub Pages
+- Vercel
+- Firebase Hosting
+
+## 🔥 Future Improvements
+
+- AI opponent mode 🤖
+- Score tracking 🏆
+- Sound effects 🔊
+- Multiplayer support 🌐
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
